@@ -40,6 +40,9 @@ For Target Cold-Start Scenario:
 
 All predictions are saved in the ./repository/ folder. 
 
+# Web Tool
+Web tool to search for drugs and targets and generate sunburst plots that explain predicted scores available here: https://paccanarolab.org/exdtiweb/.
+
 # Prospective Evaluation
 1. Run prospective_2022_compute_allSI.mlx for saved the test in ./repository/prospective_evaluation.
 2. For Recall-Drugs run corrections_of_prospective_2022_drugswise.mlx.
