@@ -14,42 +14,43 @@ LI-DTI learns from drug-drug and target-target similarity matrices –-chemical,
 
 # Code and Data
 
-# Data Files
-All data files are available here: https://zenodo.org/records/XXXXXX
+## Data Files
+All data files are available here: https://zenodo.org/records/XXXXXX.
 
-- data/luo_dataset: Contains the data which are used for the prediction tasks in DTINet dataset.
-- repository: Contains the replicable predictions for each model in warm and cold start.
-- prospective_evaluation: Contains the data for the prospective evaluation in DrugBank.
+- `data/luo_dataset/`: Data used for prediction tasks on the DTINet dataset.
+- `repository/`: Replicable predictions for each model under warm- and cold-start settings.
+- `prospective_evaluation/`: Data used for the prospective evaluation on DrugBank.
 
-# Code
-Here we describe the code used in LI-DTI.
+## Code
+This section describes the code used to run LI-DTI.
 
-# Warm and Cold-Start Scenarios
-For Warm-Start Scenario:
-1. Run warm_start_10_CV_predictions.mlx to get the predictions.
-2. Run plot_warm_start.mlx to get the results.
-3. Run removing_similarities_warm_start_true_CV.mlx to get the results for the case of removing similarities.
+### Warm- and Cold-Start Scenarios
 
-For Drug Cold-Start Scenario:
-1. Run drug_cold_10_cv.mlx to get the predictions.
-2. Run plot_10CV_drug_cold_start_all_metrics.mlx to get the results.
+#### Warm-Start Scenario
+1. Run `warm_start_10_CV_predictions.mlx` to generate predictions.
+2. Run `plot_warm_start.mlx` to produce evaluation results.
+3. Run `removing_similarities_warm_start_true_CV.mlx` to evaluate performance after removing similar instances.
 
-For Target Cold-Start Scenario:
-1. Run target_cold_10_cv.mlx to get the predictions
-2. Run plot_10CV_target_cold_start_all_metrics.mlx to get the results.
+#### Drug Cold-Start Scenario
+1. Run `drug_cold_10_cv.mlx` to generate predictions.
+2. Run `plot_10CV_drug_cold_start_all_metrics.mlx` to produce evaluation results.
 
-All predictions are saved in the ./repository/ folder. 
+#### Target Cold-Start Scenario
+1. Run `target_cold_10_cv.mlx` to generate predictions.
+2. Run `plot_10CV_target_cold_start_all_metrics.mlx` to produce evaluation results.
 
-# Web Tool
+All predictions are saved in the `./repository/` folder.
+
+### Prospective Evaluation
+1. Run `prospective_2022_compute_allSI.mlx` to generate predictions saved in `./repository/prospective_evaluation/`.
+2. For drug-wise recall, run `corrections_of_prospective_2022_drugswise.mlx`.
+3. For target-wise recall, run `corrections_of_prospective_2022_targetwise.mlx`.
+
+   
+# Web Tool 
 Web tool to search for drugs and targets and generate sunburst plots that explain predicted scores available here: https://paccanarolab.org/exdtiweb/.
-
-# Prospective Evaluation
-1. Run prospective_2022_compute_allSI.mlx for saved the test in ./repository/prospective_evaluation.
-2. For Recall-Drugs run corrections_of_prospective_2022_drugswise.mlx.
-3. For Recall-Targets run corrections_of_prospective_2022_targetwise.mlx.
-
-
 
 # Contacts
 If you have any questions or comments, please feel free to contact:
 - **Santiago Ferreyra** (`santiago.ferreyra@fgv.br`).
+
