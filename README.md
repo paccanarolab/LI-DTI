@@ -15,7 +15,7 @@ LI-DTI learns from drug-drug and target-target similarity matrices –-chemical,
 # Code and Data
 
 ## Data Files
-All data files are available here: https://zenodo.org/records/XXXXXX.
+All data files are available here: https://zenodo.org/records/18262393. 
 
 - `data/luo_dataset/`: Data used for prediction tasks on the DTINet dataset.
 - `repository/`: Replicable predictions for each model under warm- and cold-start settings.
