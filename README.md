@@ -48,7 +48,7 @@ All predictions are saved in the `./repository/` folder.
 
    
 # Web Tool 
-Web tool to search for drugs and targets and generate sunburst plots that explain predicted scores available here: https://paccanarolab.org/exdtiweb/.
+Web tool to search for drugs and targets and generate sunburst plots that explain predicted scores available here: https://paccanarolab.org/lidtiweb/.
 
 # Contacts
 If you have any questions or comments, please feel free to contact:
