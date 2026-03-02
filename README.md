@@ -18,8 +18,25 @@ LI-DTI learns from drug-drug and target-target similarity matrices –-chemical,
 All data files are available here: https://zenodo.org/records/18262393. 
 
 - `data/luo_dataset/`: Data used for prediction tasks on the DTINet dataset.
-- `repository/`: Replicable predictions for each model under warm- and cold-start settings.
 - `prospective_evaluation/`: Data used for the prospective evaluation on DrugBank.
+- `repository/`: Replicable predictions for each model under warm- and cold-start settings.
+
+The top-level structure is organized as follows:
+LI-DTI/ 
+├── data/                          # Contains all datasets used in all the scenarios.
+│   ├── luo_dataset/
+│   │   ├── drug_cold_start/
+│   │   ├── target_cold_start/
+│   │   ├── warm_start_10_CVs/
+│   │   └── similarities/
+├── prospective_evaluation/        # Contains data for prospective/realistic for the prospective evalaution.
+├── repository/                    # Contains all the prediction for each competitors in the different experiments. 
+│   ├── cold_start_evaluation_1/
+│       ├── drug_cold_start/
+│       ├── target_cold_start/
+│   ├── prospective_evaluation/                
+│   ├── warm_start_10_CVs/        
+├── README.md 
 
 ## Code
 This section describes the code used to run LI-DTI.
