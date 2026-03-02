@@ -22,6 +22,24 @@ All data files are available here: https://zenodo.org/records/18262393.
 - `repository/`: Replicable predictions for each model under warm- and cold-start settings.
 
 The top-level structure is organized as follows:
+LI-DTI/
+├── data/ # Contains all datasets used in all scenarios
+│ ├── luo_dataset/
+│ │ ├── drug_cold_start/
+│ │ ├── target_cold_start/
+│ │ ├── warm_start_10_CVs/
+│ │ └── similarities/
+├── prospective_evaluation/ # Data for prospective/realistic evaluation
+├── repository/ # Predictions for each competitor in experiments
+│ ├── cold_start_evaluation_1/
+│ ├── drug_cold_start/
+│ ├── target_cold_start/
+│ ├── prospective_evaluation/
+│ └── warm_start_10_CVs/
+├── README.md
+
+
+
 LI-DTI/ 
 ├── data/                          # Contains all datasets used in all the scenarios.
 │   ├── luo_dataset/
