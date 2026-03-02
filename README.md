@@ -71,6 +71,12 @@ Numerical values for LI-DTI and competing methods are provided in the Supplement
 # Web Tool 
 Web tool to search for drugs and targets and generate sunburst plots that explain predicted scores available here: https://paccanarolab.org/lidtiweb/.
 
+<p align="center">
+  <img src="images/sunburst_plot2026.png" alt="Interpretability" width="700">
+</p>
+
+Example of DTI prediction: beta-blocker Atenolol and the target ADRB2. 
+
 # Contacts
 If you have any questions or comments, please feel free to contact:
 - **Santiago Ferreyra** (`santiago.ferreyra@fgv.br`).
