@@ -5,7 +5,7 @@ LI-DTI learns from drug-drug and target-target similarity matrices –-chemical,
 
 # LI-DTI
 <p align="center">
-  <img src="images/model_figure.jpg" alt="LI-DTI model architecture" width="700">
+  <img src="images/Figure1.png" alt="LI-DTI model architecture" width="700">
 </p>
 
 # Requeriments
