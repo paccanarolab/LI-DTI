@@ -10,7 +10,7 @@ LI-DTI learns from drug-drug and target-target similarity matrices –-chemical,
 
 # Requeriments
 - MATLAB (R2018a or later recommended).
-- Toolboxes: Statistics and Machine Learning and Optimization.
+- Toolboxes: Statistics and Machine Learning, and Optimization.
 
 # Code and Data
 
