@@ -39,7 +39,7 @@ LI-DTI/
 │   └── warm_start_10_CVs/        
 └── README.md 
 ```
-- `code/` directory need to be at the top level of the LI-DTI/.
+- `code/` directory need to be at the top level inside of the LI-DTI/.
 
 ## Code
 This section describes the code used to run LI-DTI.
