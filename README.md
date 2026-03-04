@@ -66,7 +66,7 @@ All predictions are saved in the `./repository/` folder.
 2. For drug-wise recall, run `corrections_of_prospective_2022_drugswise.mlx`.
 3. For target-wise recall, run `corrections_of_prospective_2022_targetwise.mlx`.
 
-Numerical values for LI-DTI and competing methods are provided in the Supplementary Tables.
+Numerical values for LI-DTI and competing methods are provided in `./results/` folder (and Supplementary Tables).
    
 # Web Tool 
 Web tool to search for drugs and targets and generate sunburst plots that explain predicted scores available here: https://paccanarolab.org/lidtiweb/.
