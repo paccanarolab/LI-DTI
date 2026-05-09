@@ -49,29 +49,29 @@ LI-DTI/
 - `code/` directory need to be at the top level inside of the LI-DTI/.
 
 ## Code
-This section describes the code used to run LI-DTI.
+This section describes the code used to run LI-DTI. For MATLAB run the `.mlx` files and for GNU Octave use the `.m` files.
 
 ### Warm- and Cold-Start Scenarios
 
 #### Warm-Start Scenario 
-1. Run `warm_start_10_CV_predictions.mlx` to generate predictions.
-2. Run `plot_warm_start.mlx` to produce evaluation results (calculate and plot AUC and AUPR (mean,std) for predictions).
-3. Run `removing_similarities_warm_start_true_CV.mlx` to evaluate performance after removing similar instances.
+1. Run `warm_start_10_CV_predictions` to generate predictions.
+2. Run `plot_warm_start` to produce evaluation results (calculate and plot AUC and AUPR (mean,std) for predictions).
+3. Run `removing_similarities_warm_start_true_CV` to evaluate performance after removing similar instances.
  
 #### Drug Cold-Start Scenario 
-1. Run `drug_cold_10_cv.mlx` to generate predictions.
-2. Run `plot_10CV_drug_cold_start_all_metrics.mlx` to produce evaluation results.
+1. Run `drug_cold_10_cv` to generate predictions.
+2. Run `plot_10CV_drug_cold_start_all_metrics` to produce evaluation results.
 
 #### Target Cold-Start Scenario 
-1. Run `target_cold_10_cv.mlx` to generate predictions.
-2. Run `plot_10CV_target_cold_start_all_metrics.mlx` to produce evaluation results.
+1. Run `target_cold_10_cv` to generate predictions.
+2. Run `plot_10CV_target_cold_start_all_metrics` to produce evaluation results.
 
 All predictions are saved in the `./repository/` folder.
 
 ### Prospective Evaluation
-1. Run `prospective_2022_compute_allSI.mlx` to generate predictions saved in `./repository/prospective_evaluation/`.
-2. For drug-wise recall, run `corrections_of_prospective_2022_drugswise.mlx`.
-3. For target-wise recall, run `corrections_of_prospective_2022_targetwise.mlx`.
+1. Run `prospective_2022_compute_allSI` to generate predictions saved in `./repository/prospective_evaluation/`.
+2. For drug-wise recall, run `corrections_of_prospective_2022_drugswise`.
+3. For target-wise recall, run `corrections_of_prospective_2022_targetwise`.
 
 Numerical values for LI-DTI and competing methods are provided in `./results/` folder (and Supplementary Tables).
    
