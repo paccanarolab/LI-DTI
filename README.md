@@ -12,9 +12,7 @@ LI-DTI learns from drug-drug and target-target similarity matrices –-chemical,
 - MATLAB (R2018a or later recommended).
 - Toolboxes: Statistics and Machine Learning, and Optimization.
 
-- The code was originally developed in Matlab and has been revised to run also in GNU Octave without requiring a Matlab license.
-
-Tested with:
+The code was originally developed in Matlab and has been revised to run also in GNU Octave without requiring a Matlab license.
 - GNU Octave version: X.X.X
 - Operating system: Windows 10/11
 - Required Octave packages: [list packages, if any]
