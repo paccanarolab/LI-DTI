@@ -53,8 +53,9 @@ LI-DTI/
 ## Code
 This section describes the code used to run LI-DTI. 
 
-For MATLAB, run the `.mlx` files inside of the folder `code (MATLAB)`.
-For GNU Octave, run the same files but use the `.m` files inside of the folder `code (Octave`.
+- For MATLAB, run the `.mlx` files inside of the folder `code (MATLAB)`.
+
+- For GNU Octave, run the same files but use the `.m` files inside of the folder `code (Octave`.
 
 ### Warm- and Cold-Start Scenarios
 
