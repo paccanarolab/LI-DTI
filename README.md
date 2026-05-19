@@ -19,8 +19,8 @@ Tested environment (GNU Octave):
 - GNU Octave version: 11.1.0
 - Operating system: Windows 10/11 
 - Required Octave packages:
-  - optim
   - statistics
+  - optim
 
 Instructions for running the code below.
 
