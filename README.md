@@ -9,11 +9,13 @@ LI-DTI learns from drug-drug and target-target similarity matrices -chemical, bi
 </p>
 
 # Requeriments
-- MATLAB (R2018a or later recommended).
-- Toolboxes: Statistics and Machine Learning, and Optimization.
-
 The code was originally developed in MATLAB and has been revised to run also in GNU Octave, allowing the experiments to be executed without requiring a MATLAB license.
-Tested environment:
+- MATLAB (R2018a or later recommended).
+- Required Toolboxes:
+  - Statistics and Machine Learning
+  - Optimization.
+
+Tested environment (GNU Octave):
 - GNU Octave version: 11.1.0
 - Operating system: Windows 10/11 
 - Required Octave packages:
@@ -58,7 +60,7 @@ This section describes the code used to run LI-DTI.
 
 - For MATLAB, run the `.mlx` files inside of the folder `code (MATLAB)`.
 
-- For GNU Octave, run the same files but use the `.m` files inside of the folder `code (Octave)`.
+- For GNU Octave, run exactly the same files but use the `.m` files inside of the folder `code (Octave)`.
 
 ### Warm- and Cold-Start Scenarios
 
