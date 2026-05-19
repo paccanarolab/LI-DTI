@@ -22,16 +22,17 @@ Instructions for running the code below.
 # Code and Data
 
 ## Data Files
-All data files are available here: https://zenodo.org/records/18262393. 
+All data files are available here: https://zenodo.org/records/18262393. After downloading, you will find these files necessary for evaluations.
 
-- `data/luo_dataset/`: Data used for prediction tasks on the DTINet dataset.
-  Each evaluation scenario (e.g., `warm_start_10_CVs`, `drug_cold_start`, `target_cold_start`) is organized into 10 cross-validation splits (`cv_1`–`cv_10`). Within each `cv_i` folder, the data are further divided into paired training and test matrices, corresponding to the folds used in the 10-fold cross-validation procedure.
+- `data/luo_dataset/`: Data used for prediction tasks on the DTINet dataset. Each evaluation scenario (e.g., `warm_start_10_CVs`, `drug_cold_start`, `target_cold_start`) is organized into 10 cross-validation splits (`cv_1`–`cv_10`). Within each `cv_i` folder, the data are further divided into paired training and test matrices, corresponding to the folds used in the 10-fold cross-validation procedure.
 - `prospective_evaluation/`: Data used for the prospective evaluation on DrugBank.
 - `repository/`: Replicable predictions for each model under warm- and cold-start settings and prospective evaluation.
 
 The top-level structure is organized as follows:
 ```text
-LI-DTI/ 
+LI-DTI/
+├── code (MATLAB)/                 # Original implementation in MATLAB
+├── code (Octave)/                 # Implementation in GNU-Octave 
 ├── data/                          # Contains all datasets used in all the scenarios.
 │   ├── luo_dataset/
 │   │   ├── drug_cold_start/
@@ -50,7 +51,10 @@ LI-DTI/
 - `code/` directory need to be at the top level inside of the LI-DTI/.
 
 ## Code
-This section describes the code used to run LI-DTI. For MATLAB run the `.mlx` files and for GNU Octave use the `.m` files.
+This section describes the code used to run LI-DTI. 
+
+For MATLAB, run the `.mlx` files inside of the folder `code (MATLAB)`.
+For GNU Octave, run the same files but use the `.m` files inside of the folder `code (Octave`.
 
 ### Warm- and Cold-Start Scenarios
 
