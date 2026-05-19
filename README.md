@@ -1,7 +1,7 @@
 # LI-DTI: A linear interpretable model for Drug Target Prediction
 
 Official implementation of LI-DTI, a Linear Interpretable Drug-Target Interaction prediction model inspired by recommender systems.
-LI-DTI learns from drug-drug and target-target similarity matrices –-chemical, biological, and pharmacological-– and provides interpretable predictions as a linear combination of these interactions.
+LI-DTI learns from drug-drug and target-target similarity matrices -chemical, biological, and pharmacological- and provides interpretable predictions as a linear combination of these interactions.
 
 # LI-DTI
 <p align="center">
@@ -24,7 +24,8 @@ Instructions for running the code below.
 ## Data Files
 All data files are available here: https://zenodo.org/records/18262393. 
 
-- `data/luo_dataset/`: Data used for prediction tasks on the DTINet dataset. Each evaluation scenario (e.g., `warm_start_10_CVs`, `drug_cold_start`, `target_cold_start`) is organized into 10 cross-validation splits (`cv_1`–`cv_10`). Within each `cv_i` folder, the data are further divided into paired training and test matrices, corresponding to the folds used in the 10-fold cross-validation procedure.
+- `data/luo_dataset/`: Data used for prediction tasks on the DTINet dataset.
+  Each evaluation scenario (e.g., `warm_start_10_CVs`, `drug_cold_start`, `target_cold_start`) is organized into 10 cross-validation splits (`cv_1`–`cv_10`). Within each `cv_i` folder, the data are further divided into paired training and test matrices, corresponding to the folds used in the 10-fold cross-validation procedure.
 - `prospective_evaluation/`: Data used for the prospective evaluation on DrugBank.
 - `repository/`: Replicable predictions for each model under warm- and cold-start settings and prospective evaluation.
 
