@@ -27,7 +27,9 @@ Instructions for running the code below.
 # Code and Data
 
 ## Data Files
-All data files are available here: https://zenodo.org/records/18262393. After downloading, you will find these files necessary for evaluations.
+All data files are available here: https://zenodo.org/records/18262393. 
+
+After downloading, you will find these files necessary for evaluations.
 
 - `data/luo_dataset/`: Data used for prediction tasks on the DTINet dataset. Each evaluation scenario (e.g., `warm_start_10_CVs`, `drug_cold_start`, `target_cold_start`) is organized into 10 cross-validation splits (`cv_1`–`cv_10`). Within each `cv_i` folder, the data are further divided into paired training and test matrices, corresponding to the folds used in the 10-fold cross-validation procedure.
 - `prospective_evaluation/`: Data used for the prospective evaluation on DrugBank.
