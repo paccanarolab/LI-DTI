@@ -72,11 +72,11 @@ This section describes the code used to run LI-DTI.
 3. Run `removing_similarities_warm_start_true_CV` to evaluate performance after removing similar instances.
  
 #### Drug Cold-Start Scenario 
-1. Run `drug_cold_10_cv` to generate predictions.
+1. Run `drug_cold_start_10_cv` to generate predictions.
 2. Run `plot_10CV_drug_cold_start_all_metrics` to produce evaluation results.
 
 #### Target Cold-Start Scenario 
-1. Run `target_cold_10_cv` to generate predictions.
+1. Run `target_cold_start_10_cv` to generate predictions.
 2. Run `plot_10CV_target_cold_start_all_metrics` to produce evaluation results.
 
 All predictions are saved in the `./repository/` folder.
